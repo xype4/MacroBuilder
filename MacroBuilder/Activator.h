@@ -9,6 +9,8 @@
 struct KeyActivator {
     std::string Name;
 
+    KeyActivator()
+       {}
     KeyActivator(std::string InName):
         Name(InName){ }
 };

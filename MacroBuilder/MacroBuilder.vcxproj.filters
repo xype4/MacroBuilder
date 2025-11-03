@@ -22,6 +22,12 @@
     <Filter Include="Исходные файлы\InputHookModule\Handlers">
       <UniqueIdentifier>{c09288fe-a5f0-43aa-ae83-c2dbff02d3e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\XML">
+      <UniqueIdentifier>{8e64b135-ac01-4979-a6eb-66fa4f84ea7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\XML\Activators">
+      <UniqueIdentifier>{b20956ce-33ce-4e9b-9d24-ad8575e2988c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MacroBuilder.cpp">
@@ -54,6 +60,12 @@
     <ClCompile Include="ModuleManager.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Исходные файлы\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLReader.cpp">
+      <Filter>Исходные файлы\XML</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InputHookModule.h">
@@ -83,5 +95,24 @@
     <ClInclude Include="ModuleManager.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="XMLReader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MacroBuilder.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="Activator1.xml">
+      <Filter>Исходные файлы\XML\Activators</Filter>
+    </Xsd>
   </ItemGroup>
 </Project>

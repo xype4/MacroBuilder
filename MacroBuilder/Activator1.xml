@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ActivatorData>
+	<Name>A+S</Name>
+	<FixedKeyOrder>false</FixedKeyOrder>
+	<Keys>
+		<KeyActivator>
+			<Name>A</Name>
+		</KeyActivator>
+		<KeyActivator>
+			<Name>S</Name>
+		</KeyActivator>
+	</Keys>
+</ActivatorData>
