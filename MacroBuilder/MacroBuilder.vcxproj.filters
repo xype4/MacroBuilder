@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\InputHookModule">
+      <UniqueIdentifier>{665de27b-3683-4f45-9eae-ab30c4ceb22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\InputHandlerModule">
+      <UniqueIdentifier>{1275ea53-1907-478b-bdaf-97036bdc2ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\InputHookModule\Handlers">
+      <UniqueIdentifier>{c09288fe-a5f0-43aa-ae83-c2dbff02d3e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MacroBuilder.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHookModule.cpp">
+      <Filter>Исходные файлы\InputHookModule</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandlerModule.cpp">
+      <Filter>Исходные файлы\InputHandlerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Activator.cpp">
+      <Filter>Исходные файлы\InputHandlerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHookBase.cpp">
+      <Filter>Исходные файлы\InputHookModule\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHookWindowsBase.cpp">
+      <Filter>Исходные файлы\InputHookModule\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHookWindowsLParam.cpp">
+      <Filter>Исходные файлы\InputHookModule\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHookWindowsWParam.cpp">
+      <Filter>Исходные файлы\InputHookModule\Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="IModuleInterface.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleManager.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputHookModule.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHookBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandlerModule.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Activator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHookWindowsBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHookWindowsLParam.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHookWindowsWParam.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IModuleInterface.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
